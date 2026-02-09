@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "ExamU3-Frontend",
+  "alias": "ExamU3-Frontend",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "env": {
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  },
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
+  }
+}
