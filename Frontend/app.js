@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://examu3-backend.vercel.app/api';
+const API_BASE_URL = 'https://examu3-etufino.onrender.com/api';
 
 async function buscarIVA() {
     const productId = document.getElementById('productId').value.trim();
